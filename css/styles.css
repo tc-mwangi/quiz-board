@@ -8,4 +8,11 @@
 
 #logo-text{
   position: sticky;
-}
+};
+
+/* User Icons */
+img #user-icons {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+};
