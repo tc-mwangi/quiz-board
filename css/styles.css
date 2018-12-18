@@ -1,0 +1,11 @@
+
+/* Navigation Bar */
+#logo-nav {
+  align-content: flex-end;
+  height: 50px;
+  width: 50px;
+};
+
+#logo-text{
+  position: sticky;
+}
