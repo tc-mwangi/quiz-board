@@ -14,13 +14,13 @@ All of the above options are correct.
 
 Q 2 - Which of the following is the correct syntax to print a page using JavaScript?
 
-A - window.print();
+A - window.print( );
 
-B - browser.print();
+B - browser.print( );
 
-C - navigator.print();
+C - navigator.print( );
 
-D - document.print();
+D - document.print( );
 
 Answer : A
 Explanation
@@ -28,11 +28,11 @@ window.print(); is the correct option.
 
 Q 3 - Which built-in method calls a function for each element in the array?
 
-A - while()
+A - while( )
 
-B - loop()
+B - loop( )
 
-C - forEach()
+C - forEach( )
 
 D - None of the above.
 
