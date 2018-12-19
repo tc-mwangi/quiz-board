@@ -3,13 +3,13 @@
 // 1. Link JS file in index.html.
 // Test to check JS file is linked correctly
 
-var quizCount = 0; //Count question number
-var userInput = []; //Array to store user Input
+// var userInput = []; //Array to store user Input
 
 $(document).ready(function() {
-  $("button#submit").click(function() {
+  $("#submit").click(function() {
+    var total = 5;
+    var score = 0;
 
-    // alert("This is a header.");
   });
 });
 
