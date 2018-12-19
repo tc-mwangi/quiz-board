@@ -2,9 +2,13 @@
 // console.log("hi");
 // 1. Link JS file in index.html.
 // Test to check JS file is linked correctly
+
+var quizCount = 0; //Count question number
+var userInput = []; //Array to store user Input
+
 $(document).ready(function() {
   $("button#submit").click(function() {
-    
+
     // alert("This is a header.");
   });
 });

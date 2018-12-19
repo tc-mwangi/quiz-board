@@ -95,7 +95,9 @@
           </div>
 
           <!-- END TRIVIA INSTRUCTIONS -->
-          <form class="form-control" action="index.html" method="post">
+
+            <form name="quizForm" onsubmit="submitAnswers(); return false" class="container-relative form-control" action="index.html" method="post">
+
 
 
             <div class="container-relative">
@@ -156,8 +158,6 @@
 
             <!--  THREE -->
             <div class="container-relative">
-              <form class="" action="index.html" method="post">
-
 
                 <div class="q-3">
                   <h3>Question 3:</h3>
@@ -233,16 +233,18 @@
               </div>
               <!-- END OF FIVE -->
 
+              <!-- SUBMIT BUTTON -->
+              <div class="submit-button">
+                <button id="submit" type="button" class="btn btn-danger">Submit</button>
+                <!-- END SUBMIT BUTTON -->
+
+                <div class="container">
+                  <div id="display-results" class="">Display results here</div>
+                </div>
+
           </form>
 
-          <!-- SUBMIT BUTTON -->
-          <div class="submit-button">
-            <button id="submit" type="button" class="btn btn-danger">Submit</button>
-            <!-- END SUBMIT BUTTON -->
 
-            <div class="container">
-              <div id="display-results" class="">Display results here</div>
-            </div>
 
             <!--  ANSWERS -->
 
