@@ -19,3 +19,7 @@ img #user-icons {
   width: 100px;
   height: 100px;
 };
+
+h3 {
+  color: cyan;
+};
