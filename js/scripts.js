@@ -15,7 +15,9 @@ $(document).ready(function() {
     var q3 = document.forms["quizForm"] ["q3"].value;
     var q4 = document.forms["quizForm"] ["q4"].value;
     var q5 = document.forms["quizForm"] ["q5"].value;
-    
+
+    //check whether answers are wrong, right, or unchecked/not answered.
+
 
 
   });
