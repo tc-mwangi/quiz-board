@@ -17,6 +17,14 @@ $(document).ready(function() {
     var q5 = document.forms["quizForm"] ["q5"].value;
 
     //check whether answers are wrong, right, or unchecked/not answered.
+    //let i be question number...
+
+    //If radio isn't selected....
+    for (var i = 1; i< total; i++){
+      if(eval("q" + i) == null || eval("q" + i) == ""){
+        alert("Please answer question " + i);
+      };
+    };
 
 
 
