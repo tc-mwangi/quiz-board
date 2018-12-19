@@ -37,14 +37,35 @@ $(document).ready(function() {
     };
     alert('You have scored ' + score + " / " + total);
 
+    //display results score/total...
+    var results = document.getElementById('displayResults');
+    var percentScore = ((score/total)*100);
+
+    results.innerHTML= '<h3> You scored </span>' + score + '</span> out of <span>' + total + '</span></h3>';
+
   });
 });
 
-// - passed
+
+
+
 //
-// /*OBJECTIVES
-// 1. Store users input in an array.
-// 2. Track user's selection in a variable*/
+// var percentScore = ((score/total)*100)
 //
-// var userInput = [];
-// var userSelection = [];
+// if (percentScore === 100) {
+//   var showMessage = $("#displayResults").append('Perfect Score!!! : ' + score + '/' +
+//                total + '<br>' +' Percentage: '  + percentScore
+//                +'%');
+//   return showMessage;
+//
+// } else if (percentScore === 0) {
+// var showMessage = $("#displayResults").append('Poor Score: ' + score + '/' +
+//              questions.length + '<br>' +' Percentage: '  + percentScore
+//              +'%');
+// return showMessage;
+// } else {
+// var showMessage = $("#displayResults").append('Score : ' + score + '/' +
+//              questions.length + '<br>' +' Percentage: '  + percentScore
+//              +'%');
+// return showMessage;
+// };
