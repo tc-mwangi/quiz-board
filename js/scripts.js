@@ -3,8 +3,9 @@
 // 1. Link JS file in index.html.
 // Test to check JS file is linked correctly
 $(document).ready(function() {
-  $("h3").click(function() {
-    alert("This is a header.");
+  $("button#submit").click(function() {
+    
+    // alert("This is a header.");
   });
 });
 
