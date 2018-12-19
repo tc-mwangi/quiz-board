@@ -10,11 +10,7 @@ Happy hackers is a website designed to gauge mastery of basic programming concep
 
 ### Trivia Page
 
-![Image]()
-
-### Results Page
-
-![Image]()
+![Image](images/screencapture-file-Users-WanjiruMwangi-Desktop-quiz-board-index-html-2018-12-19-11_11_38.png)
 
 ## Instructions
 Please click on the Javascript option to go to JavaScript trivia. Other languages are being beta-tested.
