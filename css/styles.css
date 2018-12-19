@@ -1,25 +1,29 @@
 /*General Styles */
 /* Fonts */
-@import "font-awesome.min.css";
+/* @import "font-awesome.min.css"; */
 
 /* Navigation Bar */
 #logo-nav {
   align-content: flex-end;
   height: 50px;
   width: 50px;
-};
+}
 
 #logo-text{
   position: sticky;
-};
+}
 
 /* User Icons */
 img #user-icons {
   display: inline-block;
   width: 100px;
   height: 100px;
-};
+}
 
 h3 {
   color: cyan;
-};
+}
+
+#explanations {
+  display: none;
+}

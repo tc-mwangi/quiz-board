@@ -43,6 +43,8 @@ $(document).ready(function() {
 
     results.innerHTML= '<h3> You scored </span>' + score + '</span> out of <span>' + total + '</span></h3>';
 
+    var showExplanations = showExplanations.getElementById('explanations');
+    showExplanations.show();
   });
 });
 
